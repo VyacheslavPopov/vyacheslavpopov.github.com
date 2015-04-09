@@ -985,8 +985,8 @@
 		.object_type .button
 		{
 			margin-right: 2em;
-			padding-right: 2em;
-			padding-left: 2em;
+			padding-right: 1.72em;
+			padding-left: 1.72em;
 		}
 
 /*********************************************************************************/
@@ -1108,7 +1108,21 @@
 		#main section:first-of-type
 		{
 			padding-top: 2em;
-		}		
+		}
+
+	a.lightbox_a {
+		border-bottom-color: transparent;
+		margin-right: 5px;
+	}
+
+	a.lightbox_a:hover {
+		border-bottom-color: transparent;
+	}
+
+	.small_obj_img
+	{
+		max-width: 249px;
+	}
 
 /*********************************************************************************/
 /* Footer                                                                        */
